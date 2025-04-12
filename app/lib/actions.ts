@@ -1,7 +1,7 @@
 "use server";
 
 import { signIn } from "@/auth";
-import { AuthError, CredentialsSignin } from "next-auth";
+import { AuthError } from "next-auth";
 import { z } from "zod";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
